@@ -18,7 +18,7 @@ body {
 
 .wrap {
   width: 30rem;
-  margin: 5rem auto;
+  margin: 5rem auto 0;
   display: flex;
   align-items: center;
 }
@@ -51,7 +51,18 @@ body {
   justify-content: center;
 }
 
+.container {
+  width: 25rem;
+  margin: 1rem auto 0;
+}
+
 .food-tray {
   height: 10rem;
-  width: 16rem;
+  width: 22rem;
+}
+
+.white {
+  width: 22rem;
+  height: 20rem;
+  background: #ffffff;
 }
