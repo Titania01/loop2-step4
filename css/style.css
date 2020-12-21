@@ -66,3 +66,12 @@ body {
   height: 30rem;
   background: #ffffff;
 }
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  color: rgb(160, 155, 145);
+  border-bottom: 1px solid rgb(212, 211, 209);
+}
