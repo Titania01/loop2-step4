@@ -10,3 +10,48 @@
 *::after {
   box-sizing: border-box;
 }
+
+html,
+body {
+  background: rgb(85, 85, 126);
+}
+
+.wrap {
+  width: 30rem;
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.evente {
+  background-color: rgb(37, 37, 37);
+  width: 6rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventee {
+  background-color: rgb(61, 62, 82);
+  width: 5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event {
+  background-color: rgb(61, 62, 82);
+  height: 4rem;
+  width: 5rem;
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-tray {
+  height: 10rem;
+  width: 16rem;
+}
