@@ -18,7 +18,7 @@ body {
 
 .wrap {
   width: 30rem;
-  margin: 5rem auto 0;
+  margin: 5rem auto 1rem;
   display: flex;
   align-items: center;
 }
@@ -53,7 +53,7 @@ body {
 
 .container {
   width: 25rem;
-  margin: 1rem auto 0;
+  margin: auto;
 }
 
 .food-tray {
@@ -63,6 +63,6 @@ body {
 
 .white {
   width: 22rem;
-  height: 20rem;
+  height: 30rem;
   background: #ffffff;
 }
