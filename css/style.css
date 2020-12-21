@@ -51,27 +51,86 @@ body {
   justify-content: center;
 }
 
+.event:hover {
+  cursor: pointer;
+  background-color: rgb(54, 53, 53);
+}
+
+.eventee:hover {
+  cursor: pointer;
+  background-color: rgb(54, 53, 53);
+}
+
 .container {
   width: 25rem;
   margin: auto;
 }
 
+.jollof {
+  position: relative;
+  top: -5rem;
+  left: 1rem;
+  color: #ffffff;
+}
+
+.foody {
+  display: flex;
+  position: relative;
+  bottom: 5rem;
+  left: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
 .food-tray {
   height: 10rem;
   width: 22rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .white {
   width: 22rem;
-  height: 30rem;
+  height: 32rem;
   background: #ffffff;
+  border-radius: 5px;
 }
 
 .text {
+  position: relative;
+  bottom: 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 2rem;
   color: rgb(160, 155, 145);
   border-bottom: 1px solid rgb(212, 211, 209);
+}
+
+.text:hover {
+  cursor: pointer;
+  color: ;
+}
+
+.text2:hover {
+  cursor: pointer;
+}
+
+.num:hover .item1 {
+  cursor: pointer;
+  color: rgb(37, 37, 37);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2);
+}
+
+.text2 {
+  position: relative;
+  bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  color: rgb(160, 155, 145);
 }
